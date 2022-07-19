@@ -1,0 +1,38 @@
+.title {
+  text-align: center;
+  color: #f8df00;
+}
+.text {
+  text-align: center;
+  color: #0abd0d;
+}
+.subTitle {
+  text-align: center;
+  color: #bc810c;
+}
+.first-container {
+  margin-bottom: 5rem;
+}
+.second-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 90%;
+  margin: auto;
+}
+.about-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+@media (max-width: 768px) {
+  .about-section {
+    width: 100%;
+  }
+  .about-section img {
+    width: 100%;
+  }
+}
