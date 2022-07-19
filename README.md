@@ -8,5 +8,7 @@ open command prompt and run
 now you can open the terminal and run the following:-
 
 > npm i (for both server and client)
+
 > npm i -g concurrently (if you don't have it yet)
+
 > npm run dev
